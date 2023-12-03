@@ -1,0 +1,211 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url("img/pozadi2.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.col-idk{
+  text-align: center;
+  
+}
+.color{
+  color: #000000;
+}
+.p-3{
+  color: rgb(20, 20, 20);
+}
+.h3-styles{
+  text-align: center;
+}
+.games {
+  height: auto; 
+  width: 160px;
+}
+.role{
+  font-size: 20px;
+}
+.text-c{
+  text-align: center;
+}
+.con-f{
+  
+  width: 100%;
+  text-align: center;
+  background-image: url("img/vzor.png"); 
+  background-repeat: no-repeat;
+  height: 280px;
+  position: relative;
+}
+.con-f4{
+  padding: 110px;
+  padding-top: 20px;
+}
+.con-f2{
+  padding-top: 25px;
+}
+.nav-bar{
+  background-color: black;
+}
+.centerclass{
+  text-align: center;
+}
+.dropdwn{
+  font-size:40px;
+  color:rgb(255, 255, 255);
+}
+body {
+  height: 100%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  
+}
+.logo {
+  align-items: center; 
+  height: 50px;
+  width: auto;
+  margin: auto;  
+}
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+  
+
+}
+.faceimage{
+  height: 60px;
+  width: auto;
+  border-radius: 50%;
+  margin: 3px;
+  margin-left: 25px;
+}
+
+.contact-info {
+  color: white;
+}
+
+.footer-p {
+  color: #4b4a4a;
+}
+
+
+.dropdown {
+  position: relative;
+  font-size: 40px;
+  display: inline-block;
+  text-align: center;
+}
+
+.inv {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.dropdown-content {
+  font-size: 25px;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.dropdown-content a {
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Responzivní styly pro footer */
+@media (max-width: 768px) {
+ 
+  .footer {
+      padding: 10px 0;
+      position: relative  ;
+  }
+  .con-f{
+    height: 150px;}
+}
+
+/* Responzivní styly pro navigační menu */
+@media (max-width: 768px) {
+  .dropdown-content {
+      position: relative;
+      display: block;
+      width: 100%;
+      text-align: left;
+  }
+
+  .dropdown:hover .dropdown-content {
+      display: none;
+  }
+
+  .dropdown:hover .dropbtn {
+      background-color: transparent;
+  }
+}
+  
+  .dropdown-content a {
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .role {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  p{
+  color: black;  
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #000000;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
